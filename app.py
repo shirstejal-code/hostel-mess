@@ -1,4 +1,4 @@
-""Streamlit dashboard: tomorrow's recommendation + confidence range."""
+"""Streamlit dashboard: tomorrow's recommendation + confidence range."""
 import os
 import datetime as dt
 import joblib
