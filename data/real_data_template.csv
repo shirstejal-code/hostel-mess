@@ -1,0 +1,4 @@
+date,meal,rain_mm,temp_c,is_holiday,is_exam,is_event,menu_score,attendance
+2026-11-01,breakfast,0,29,0,0,0,3,610
+2026-11-01,lunch,0,31,0,0,0,4,690
+2026-11-01,dinner,0,28,0,0,0,3,840

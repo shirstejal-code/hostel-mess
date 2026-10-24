@@ -1,0 +1,5 @@
+Policy,Wasted plates,Shortage (students),Total cost (Rs),Saving vs yesterday (%)
+Historical avg + 10% buffer,61686,11312,3146160,-24.2
+Same as yesterday,25264,25378,2533240,0.0
+Point forecast only,5266,5797,558460,78.0
+Forecast + decision layer (ours),7643,3915,540620,78.7
