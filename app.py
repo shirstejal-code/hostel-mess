@@ -1,4 +1,4 @@
-   rm uv.lock pyproject.toml streamlit_app.py"""Streamlit dashboard: tomorrow's recommendation + confidence range."""
+""Streamlit dashboard: tomorrow's recommendation + confidence range."""
 import os
 import datetime as dt
 import joblib
@@ -8,7 +8,6 @@ from common import make_features, COST_WASTE, COST_SHORT, CAPACITY
 from decision import optimal_quantity, prediction_interval, expected_cost_curve
 
 st.set_page_config(page_title="Mess Food-Waste Decider", page_icon="🍛", layout="centered")
-
 # On first launch (e.g. on a fresh cloud deploy) build data + model automatically.
 if not os.path.exists("models/model.joblib"):
     with st.spinner("First run: generating data and training model..."):
