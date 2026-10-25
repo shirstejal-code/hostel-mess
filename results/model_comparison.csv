@@ -1,4 +1,0 @@
-Model,MAE (students),80% coverage (%),Decision cost (Rs)
-Ridge regression,38.6,80.8,932140
-Random forest,24.3,77.4,593920
-Gradient boosting (ours),22.4,79.8,540620
